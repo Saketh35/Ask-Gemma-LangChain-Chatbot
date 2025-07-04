@@ -60,12 +60,12 @@ pip install -r requirements.txt
 If you don’t have the `requirements.txt` file yet, create it with:
 
 ```txt
-streamlit>=1.33.0
-langchain>=0.1.16
-langchain-core>=0.1.42
-langchain-community>=0.0.36
-langchain-ollama>=0.1.3
-python-dotenv>=1.0.1
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+python-dotenv
 ```
 
 Then install again:
