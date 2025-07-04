@@ -1,4 +1,3 @@
-````markdown
 # 💬 LangChain + Ollama + Streamlit: Ask Anything with Gemma 2
 
 Hey there! 👋
@@ -37,8 +36,8 @@ Basically, you type in a question, and the model (with a bit of LangChain prompt
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/Saketh35/Ask-Gemma-LangChain-Chatbot.git
+cd Ask-Gemma-LangChain-Chatbot
 ````
 
 ### 2. Set up your environment
@@ -58,10 +57,21 @@ LANGCHAIN_PROJECT=YourProjectName
 pip install -r requirements.txt
 ```
 
-If you don't have a `requirements.txt`, you can manually install:
+If you don’t have the `requirements.txt` file yet, create it with:
+
+```txt
+streamlit>=1.33.0
+langchain>=0.1.16
+langchain-core>=0.1.42
+langchain-community>=0.0.36
+langchain-ollama>=0.1.3
+python-dotenv>=1.0.1
+```
+
+Then install again:
 
 ```bash
-pip install streamlit langchain langchain-community langchain-core langchain-ollama python-dotenv
+pip install -r requirements.txt
 ```
 
 ### 4. Make sure Ollama is running and has the Gemma model pulled
@@ -91,8 +101,8 @@ streamlit run app.py
 
 This project is a learning experiment for me, so if you have ideas, feedback, or just want to say hi — feel free to open an issue or submit a pull request.
 
+Check out the repo here 👉 [Ask-Gemma-LangChain-Chatbot](https://github.com/Saketh35/Ask-Gemma-LangChain-Chatbot)
+
 Happy hacking! 🚀
 
 — *Saketh*
-
-```
